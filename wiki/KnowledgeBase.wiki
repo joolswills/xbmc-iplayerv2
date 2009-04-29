@@ -1,4 +1,4 @@
-#summary One-sentence summary of this page.
+#summary Plugin Manual
 
 = Plugin Installation =
 
@@ -14,4 +14,3 @@ To install this software please follow the [http://xbmc.org/wiki/?title=HOW-TO_i
 
  * This plugin doesn't yet support the Flash AAC radio streams. This is a limitation of XBMC and hopefully will be fixed sometime soon.
  
-
