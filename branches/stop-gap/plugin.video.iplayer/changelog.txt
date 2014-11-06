@@ -1,0 +1,140 @@
+Changes
+
+2.5.9
+  * remove duplicate import md5 line
+  * true -> True code fix
+
+2.5.8
+  * subtitle fixes
+  * resume point improvements - thanks to neil
+  * regular expression optimisations - thanks to neil
+
+2.5.7
+  * fixed xbmc import in iplayer2.py
+
+2.5.6
+  * avoid md5/sets deprecated warnings on Python 2.6+ - thanks to neil
+  * don't keep resume points during first 5% or last 95% of stream - thanks to neil
+  * switch extraction of thumbnail from xml to regular expression due to elementree <1.3 lacking xpath @attrib
+
+2.5.5
+  * fix for broken thumbnails - thanks to dlake
+  * fixed thumbnail cache
+  * regular expression optimisations - thanks to neil
+  * removed play dialog that caused issues for some users (and wasn't particularly useful).
+  * harmonise logging - thanks to neil
+  * fixed episode sorting - thanks to doug
+  * improved stream selection based on user preferences - thanks to doug
+
+2.5.4
+  * resume support got broken in the last release. oops. thanks to doug
+    for the fix
+
+2.5.3
+  * subtitle timing fixes (thanks to christian)
+  * resume performance improvements and fixes (thanks to doug)
+  * improved episode sorting (thanks to doug)
+
+2.5.2
+  * search was broken during code cleanups (removal of in-use import)
+
+2.5.1
+  * re-enable limelight cdn for live streams (they were not working before)
+  * xbmc4xbox compatibility fix
+
+2.5.0
+  * implemented live tv functionality into main iplayer2.py code
+  * various code cleanups/fixes
+  * more reliable removal of resume lock file
+  
+2.4.18
+  * resume support (thanks to alastair)
+  * fixed/improved radio stream support (thanks to alastair)
+  * updated swf url
+
+2.4.17
+  * fix up hd streams (bitrate changed from 3200 to 2800kbit)
+
+2.4.16
+  * fix up live channels again
+  * disable bbc red button (currently unsure about stream id)
+
+2.4.15
+  * quick fix-ups for live channels
+  * properly quote search string - thanks to alastair
+
+2.4.14
+
+  * bbc one / bbc two back on akamai
+  * search code changes
+  * don't force dvdplayer for live streams
+
+2.4.13
+
+  * bbc one / bbc two back on akamai_hd
+  * bbc radio 7 became bbc radio 4 extra
+
+2.4.12
+
+  * revert akamai_hd changes (bbc switched back to akamai)
+
+2.4.11
+
+  * Fixed code typo from last release.
+
+2.4.10
+
+  * Support akamai_hd live stream (bbc1 switched to http stream for akamai)
+  * Fix python error in dialog code
+
+2.4.9
+
+  * compatibility with xbmc git releases post internal python removal - getcwd no
+    longer returns the path of the running script
+  * removed addon compatibility code for xbmc4xbox (no longer needed since we
+    have an addon compatibility module shipped with xbmc4xbox)
+  * misc clean-ups
+
+2.4.8
+
+  * fixed path issue that was present when using unwrapped/external python
+
+2.4.7
+
+  * allow disabling of http cache used for caching iplayer rss/xml
+  * use correct storage location for addon data
+  * rename from IPlayer to iPlayer
+  * make addon appear in both audio and video sections. Thanks Hitcher.
+  * added this changelog
+
+2.4.6
+
+  * version bump to fix problems with the 2.4.5 on Hitcher's repo.
+
+2.4.5
+
+  * addition of non tunnel http proxy plus socks 4/5 proxy options
+  * http proxy authentication (also sent upstream)
+  * update radio stream support
+  * fixed up lots internal stream logic that wasn't quite working
+  * added bbc news 24 live @ 1500kbit
+
+2.4.2
+
+  * video stream settings fix
+
+2.4.1
+
+  * documentation and icon fix
+
+2.4.0
+
+  * http tunnelled and socks 4 / 5 support (needs work)
+  * start on radio or tv screen
+  * level 3 stream support
+  * optimised icons
+
+Older changes are available at
+http://code.google.com/p/xbmc-iplayerv2/source/list
+  
+  
